@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TSCPMVNE_prod_1.9.4">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.6/antlr-2.7.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.6.1/slf4j-api-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jta-1.1/jta-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6.1/dom4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.16/log4j-1.2.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="billingapi_1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/billingapi_1.3/billingapi_1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mvno_api_proxy.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mvno_api_proxy/mvno_api_proxy">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate3/hibernate3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.1/commons-collections-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.0.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.12.0.GA/javassist-3.12.0.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="velocity-1.7-dep.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/velocity-1.7-dep/velocity-1.7-dep">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc14/ojdbc14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TSCPMVNE_prod_1.9.4"/>
+        <property name="java-output-path" value="/TSCPMVNE_prod_1.9.4/build/classes"/>
+    </wb-module>
+</project-modules>
